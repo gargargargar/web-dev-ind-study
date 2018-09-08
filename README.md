@@ -3,5 +3,5 @@ Garcia Lu
 Instructor: David Warren
 Northfield Mount Hermon School
 
-# Welcome!
+## Welcome!
 This is the course repo for Garcia Lu's independent study course of fall 2018.
