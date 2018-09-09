@@ -1,6 +1,8 @@
 # 2018 Fall Web Development Independent Study
 Garcia Lu
+
 Instructor: David Warren
+
 Northfield Mount Hermon School
 
 ## Welcome!
