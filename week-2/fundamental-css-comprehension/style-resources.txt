@@ -12,13 +12,15 @@ html {
 
 /* Selectors to be matched up with rulesets */
 
-.card article img
-.card footer
-.card header
-.card
+
+
+
+
 
 /* Rulesets to be matched up with selectors */
 
+
+.card /* 0011 */
 {
   width: 35em;
   height: 22em;
@@ -28,16 +30,19 @@ html {
   border-radius: 1.5em;
 }
 
+.card header /* 0012 */
 {
   background-image: linear-gradient(to bottom,rgba(0,0,0,0.1), rgba(0,0,0,0));
   border-radius: 1.5em 1.5em 0 0;
 }
 
+.card footer /* 0012 */
 {
   background-image: linear-gradient(to bottom,rgba(0,0,0,0), rgba(0,0,0,0.1));
   border-radius: 0 0 1.5em 1.5em;
 }
 
+.card article img /* 0013 */
 {
   max-height: 100%
   float: right;
