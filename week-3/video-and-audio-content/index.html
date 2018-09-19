@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>Media Test Page</title>
+</head>
+
+<body>
+	
+	<h1>Some test audios and videos are here!</h1>
+
+	<p>
+		<audio controls>
+			<source src="viper.mp3" type="audio/mp3">
+			<source src="viper.ogg" type="audio/ogg">
+		</audio>
+	</p>
+
+	<p>
+		<video controls width="400" height="400"
+	    	loop
+	    	poster="poster.png">
+			<source src="rabbit320.mp4" type="video/mp4">
+			<source src="rabbit320.webm" type="video/webm">
+			<p>Rip. No rabbit video for you, or find it <a href="rabbit320.mp4" title="here">here</a> instead.</p><!--Why doesn't this behave as expected-->
+		</video>
+	</p>
+</body>
+
+</html>
