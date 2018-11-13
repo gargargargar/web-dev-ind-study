@@ -1,7 +1,7 @@
 var passport = require('passport');
 var GoogleStrategy = require('passport-google-oauth').OAuth2Strategy;
 var Googleuser = require('../models/googleuser');
-require('dotenv').config(); //Use dotenv to read .env vars into Node
+require('dotenv').config();
 
 
 // Use the GoogleStrategy within Passport.
@@ -9,8 +9,8 @@ require('dotenv').config(); //Use dotenv to read .env vars into Node
 //   credentials (in this case, an accessToken, refreshToken, and Google
 //   profile), and invoke a callback with a user object.
 passport.use(new GoogleStrategy({
-    clientID: process.env.GOOGLE_CLIENT_ID,
-    clientSecret: process.env.GOOGLE_CLIENT_SECRET,
+    clientID: process.env.Google_client_id,
+    clientSecret: process.env.Google_client_secret,
     callbackURL: "/auth/google/callback"
   },
 
